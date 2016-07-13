@@ -11,6 +11,10 @@ CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o
  /home/mikel/workspace/IoT_raspi/include/raspicam.h
  /home/mikel/workspace/IoT_raspi/include/raspicamtypes.h
  /home/mikel/workspace/IoT_raspi/sensor.h
+CMakeFiles/Node.dir/fake_camera.cpp.o
+ /home/mikel/workspace/IoT_raspi/fake_camera.cpp
+ /home/mikel/workspace/IoT_raspi/fake_camera.h
+ /home/mikel/workspace/IoT_raspi/sensor.h
 CMakeFiles/Node.dir/rpi_node.cpp.o
  ../include/boost/align/align.hpp
  ../include/boost/align/detail/address.hpp
@@ -2859,6 +2863,7 @@ CMakeFiles/Node.dir/unit_testing_IoT.cpp.o
  ../include/websocketpp/version.hpp
  /home/mikel/workspace/IoT_raspi/base64.h
  /home/mikel/workspace/IoT_raspi/camera_NoIr_V2.h
+ /home/mikel/workspace/IoT_raspi/fake_camera.h
  /home/mikel/workspace/IoT_raspi/include/connection_metadata.h
  /home/mikel/workspace/IoT_raspi/include/raspicam.h
  /home/mikel/workspace/IoT_raspi/include/raspicamtypes.h

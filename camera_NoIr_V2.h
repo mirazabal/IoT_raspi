@@ -18,13 +18,11 @@ public:
 
 	std::vector<std::string> get_data() override ;
 private:
-	std::string encode_base64(std::string const& source);
-	std::string grab();
-	std::string get_image_base64(std::fstream& f_str);
-	void get_fs(std::fstream& fs);
+	std::string grab_encoded64();
+	std::string get_image();
+	std::string encode_base64( std::string const& source);
 
 	raspicam::RaspiCam camera_;
-	int photo_number_;
 	mirazabal::base64 base64_encoder_;
 };
 

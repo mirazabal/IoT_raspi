@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Node.dir/rpi_sensor_factory.cpp.o"
+  "CMakeFiles/Node.dir/fake_camera.cpp.o"
   "CMakeFiles/Node.dir/base64.cpp.o"
   "CMakeFiles/Node.dir/unit_testing_IoT.cpp.o"
   "CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o"

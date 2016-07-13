@@ -1,8 +1,6 @@
 
 #include "rpi_node.h"
 
-
-
 rpi_node::rpi_node(std::string const& name){
 	name_ = name;
 }
@@ -17,7 +15,6 @@ std::string rpi_node::get_name(){
 
 void rpi_node::send_data(std::string const& name, std::string const& data){
 	endpoint_.emit(name,data);
-
 }
 
 std::shared_ptr<sensor> rpi_node::get_sensor(std::string const& sensorName){

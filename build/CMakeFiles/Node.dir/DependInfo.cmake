@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mikel/workspace/IoT_raspi/base64.cpp" "/home/mikel/workspace/IoT_raspi/build/CMakeFiles/Node.dir/base64.cpp.o"
   "/home/mikel/workspace/IoT_raspi/camera_NoIr_V2.cpp" "/home/mikel/workspace/IoT_raspi/build/CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o"
+  "/home/mikel/workspace/IoT_raspi/fake_camera.cpp" "/home/mikel/workspace/IoT_raspi/build/CMakeFiles/Node.dir/fake_camera.cpp.o"
   "/home/mikel/workspace/IoT_raspi/rpi_node.cpp" "/home/mikel/workspace/IoT_raspi/build/CMakeFiles/Node.dir/rpi_node.cpp.o"
   "/home/mikel/workspace/IoT_raspi/rpi_sensor_factory.cpp" "/home/mikel/workspace/IoT_raspi/build/CMakeFiles/Node.dir/rpi_sensor_factory.cpp.o"
   "/home/mikel/workspace/IoT_raspi/sensor.cpp" "/home/mikel/workspace/IoT_raspi/build/CMakeFiles/Node.dir/sensor.cpp.o"

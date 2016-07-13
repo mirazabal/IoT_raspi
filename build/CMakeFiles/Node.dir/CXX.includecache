@@ -17262,6 +17262,20 @@ string
 vector
 -
 
+/home/mikel/workspace/IoT_raspi/fake_camera.cpp
+fake_camera.h
+/home/mikel/workspace/IoT_raspi/fake_camera.h
+
+/home/mikel/workspace/IoT_raspi/fake_camera.h
+sensor.h
+/home/mikel/workspace/IoT_raspi/sensor.h
+fstream
+-
+string
+-
+vector
+-
+
 /home/mikel/workspace/IoT_raspi/include/connection_metadata.h
 websocketpp/config/asio_no_tls_client.hpp
 -
@@ -17421,6 +17435,8 @@ memory
 /home/mikel/workspace/IoT_raspi/unit_testing_IoT.cpp
 camera_NoIr_V2.h
 /home/mikel/workspace/IoT_raspi/camera_NoIr_V2.h
+fake_camera.h
+/home/mikel/workspace/IoT_raspi/fake_camera.h
 rpi_node.h
 /home/mikel/workspace/IoT_raspi/rpi_node.h
 memory

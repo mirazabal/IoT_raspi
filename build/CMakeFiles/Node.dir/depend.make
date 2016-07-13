@@ -11,6 +11,10 @@ CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o: ../include/raspicam.h
 CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o: ../include/raspicamtypes.h
 CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o: ../sensor.h
 
+CMakeFiles/Node.dir/fake_camera.cpp.o: ../fake_camera.cpp
+CMakeFiles/Node.dir/fake_camera.cpp.o: ../fake_camera.h
+CMakeFiles/Node.dir/fake_camera.cpp.o: ../sensor.h
+
 CMakeFiles/Node.dir/rpi_node.cpp.o: ../include/boost/align/align.hpp
 CMakeFiles/Node.dir/rpi_node.cpp.o: ../include/boost/align/detail/address.hpp
 CMakeFiles/Node.dir/rpi_node.cpp.o: ../include/boost/align/detail/align.hpp
@@ -2858,6 +2862,7 @@ CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../include/websocketpp/utilities.hpp
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../include/websocketpp/version.hpp
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../base64.h
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../camera_NoIr_V2.h
+CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../fake_camera.h
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../include/connection_metadata.h
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../include/raspicam.h
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../include/raspicamtypes.h

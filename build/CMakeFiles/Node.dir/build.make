@@ -81,9 +81,33 @@ CMakeFiles/Node.dir/rpi_sensor_factory.cpp.o.provides: CMakeFiles/Node.dir/rpi_s
 CMakeFiles/Node.dir/rpi_sensor_factory.cpp.o.provides.build: CMakeFiles/Node.dir/rpi_sensor_factory.cpp.o
 
 
+CMakeFiles/Node.dir/fake_camera.cpp.o: CMakeFiles/Node.dir/flags.make
+CMakeFiles/Node.dir/fake_camera.cpp.o: ../fake_camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Node.dir/fake_camera.cpp.o"
+	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Node.dir/fake_camera.cpp.o -c /home/mikel/workspace/IoT_raspi/fake_camera.cpp
+
+CMakeFiles/Node.dir/fake_camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Node.dir/fake_camera.cpp.i"
+	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/IoT_raspi/fake_camera.cpp > CMakeFiles/Node.dir/fake_camera.cpp.i
+
+CMakeFiles/Node.dir/fake_camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Node.dir/fake_camera.cpp.s"
+	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/IoT_raspi/fake_camera.cpp -o CMakeFiles/Node.dir/fake_camera.cpp.s
+
+CMakeFiles/Node.dir/fake_camera.cpp.o.requires:
+
+.PHONY : CMakeFiles/Node.dir/fake_camera.cpp.o.requires
+
+CMakeFiles/Node.dir/fake_camera.cpp.o.provides: CMakeFiles/Node.dir/fake_camera.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Node.dir/build.make CMakeFiles/Node.dir/fake_camera.cpp.o.provides.build
+.PHONY : CMakeFiles/Node.dir/fake_camera.cpp.o.provides
+
+CMakeFiles/Node.dir/fake_camera.cpp.o.provides.build: CMakeFiles/Node.dir/fake_camera.cpp.o
+
+
 CMakeFiles/Node.dir/base64.cpp.o: CMakeFiles/Node.dir/flags.make
 CMakeFiles/Node.dir/base64.cpp.o: ../base64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Node.dir/base64.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Node.dir/base64.cpp.o"
 	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Node.dir/base64.cpp.o -c /home/mikel/workspace/IoT_raspi/base64.cpp
 
 CMakeFiles/Node.dir/base64.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/Node.dir/base64.cpp.o.provides.build: CMakeFiles/Node.dir/base64.cpp.
 
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: CMakeFiles/Node.dir/flags.make
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.o: ../unit_testing_IoT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Node.dir/unit_testing_IoT.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Node.dir/unit_testing_IoT.cpp.o"
 	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Node.dir/unit_testing_IoT.cpp.o -c /home/mikel/workspace/IoT_raspi/unit_testing_IoT.cpp
 
 CMakeFiles/Node.dir/unit_testing_IoT.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/Node.dir/unit_testing_IoT.cpp.o.provides.build: CMakeFiles/Node.dir/u
 
 CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o: CMakeFiles/Node.dir/flags.make
 CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o: ../camera_NoIr_V2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o"
 	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o -c /home/mikel/workspace/IoT_raspi/camera_NoIr_V2.cpp
 
 CMakeFiles/Node.dir/camera_NoIr_V2.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o.provides.build: CMakeFiles/Node.dir/cam
 
 CMakeFiles/Node.dir/sensor.cpp.o: CMakeFiles/Node.dir/flags.make
 CMakeFiles/Node.dir/sensor.cpp.o: ../sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Node.dir/sensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Node.dir/sensor.cpp.o"
 	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Node.dir/sensor.cpp.o -c /home/mikel/workspace/IoT_raspi/sensor.cpp
 
 CMakeFiles/Node.dir/sensor.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/Node.dir/sensor.cpp.o.provides.build: CMakeFiles/Node.dir/sensor.cpp.
 
 CMakeFiles/Node.dir/sensor_factory.cpp.o: CMakeFiles/Node.dir/flags.make
 CMakeFiles/Node.dir/sensor_factory.cpp.o: ../sensor_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Node.dir/sensor_factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Node.dir/sensor_factory.cpp.o"
 	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Node.dir/sensor_factory.cpp.o -c /home/mikel/workspace/IoT_raspi/sensor_factory.cpp
 
 CMakeFiles/Node.dir/sensor_factory.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/Node.dir/sensor_factory.cpp.o.provides.build: CMakeFiles/Node.dir/sen
 
 CMakeFiles/Node.dir/rpi_node.cpp.o: CMakeFiles/Node.dir/flags.make
 CMakeFiles/Node.dir/rpi_node.cpp.o: ../rpi_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Node.dir/rpi_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Node.dir/rpi_node.cpp.o"
 	/home/mikel/rpi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Node.dir/rpi_node.cpp.o -c /home/mikel/workspace/IoT_raspi/rpi_node.cpp
 
 CMakeFiles/Node.dir/rpi_node.cpp.i: cmake_force
@@ -228,6 +252,7 @@ CMakeFiles/Node.dir/rpi_node.cpp.o.provides.build: CMakeFiles/Node.dir/rpi_node.
 # Object files for target Node
 Node_OBJECTS = \
 "CMakeFiles/Node.dir/rpi_sensor_factory.cpp.o" \
+"CMakeFiles/Node.dir/fake_camera.cpp.o" \
 "CMakeFiles/Node.dir/base64.cpp.o" \
 "CMakeFiles/Node.dir/unit_testing_IoT.cpp.o" \
 "CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o" \
@@ -239,6 +264,7 @@ Node_OBJECTS = \
 Node_EXTERNAL_OBJECTS =
 
 Node: CMakeFiles/Node.dir/rpi_sensor_factory.cpp.o
+Node: CMakeFiles/Node.dir/fake_camera.cpp.o
 Node: CMakeFiles/Node.dir/base64.cpp.o
 Node: CMakeFiles/Node.dir/unit_testing_IoT.cpp.o
 Node: CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o
@@ -250,7 +276,7 @@ Node: ../lib/Boost_ARM_lib/libboost_system.a
 Node: ../lib/libwebsocket_endpoint.so
 Node: ../lib/libraspicam.so
 Node: CMakeFiles/Node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/IoT_raspi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -259,6 +285,7 @@ CMakeFiles/Node.dir/build: Node
 .PHONY : CMakeFiles/Node.dir/build
 
 CMakeFiles/Node.dir/requires: CMakeFiles/Node.dir/rpi_sensor_factory.cpp.o.requires
+CMakeFiles/Node.dir/requires: CMakeFiles/Node.dir/fake_camera.cpp.o.requires
 CMakeFiles/Node.dir/requires: CMakeFiles/Node.dir/base64.cpp.o.requires
 CMakeFiles/Node.dir/requires: CMakeFiles/Node.dir/unit_testing_IoT.cpp.o.requires
 CMakeFiles/Node.dir/requires: CMakeFiles/Node.dir/camera_NoIr_V2.cpp.o.requires

@@ -177,6 +177,33 @@ camera_NoIr_V2.cpp.s:
 	$(MAKE) -f CMakeFiles/Node.dir/build.make CMakeFiles/Node.dir/camera_NoIr_V2.cpp.s
 .PHONY : camera_NoIr_V2.cpp.s
 
+fake_camera.o: fake_camera.cpp.o
+
+.PHONY : fake_camera.o
+
+# target to build an object file
+fake_camera.cpp.o:
+	$(MAKE) -f CMakeFiles/Node.dir/build.make CMakeFiles/Node.dir/fake_camera.cpp.o
+.PHONY : fake_camera.cpp.o
+
+fake_camera.i: fake_camera.cpp.i
+
+.PHONY : fake_camera.i
+
+# target to preprocess a source file
+fake_camera.cpp.i:
+	$(MAKE) -f CMakeFiles/Node.dir/build.make CMakeFiles/Node.dir/fake_camera.cpp.i
+.PHONY : fake_camera.cpp.i
+
+fake_camera.s: fake_camera.cpp.s
+
+.PHONY : fake_camera.s
+
+# target to generate assembly for a file
+fake_camera.cpp.s:
+	$(MAKE) -f CMakeFiles/Node.dir/build.make CMakeFiles/Node.dir/fake_camera.cpp.s
+.PHONY : fake_camera.cpp.s
+
 rpi_node.o: rpi_node.cpp.o
 
 .PHONY : rpi_node.o
@@ -327,6 +354,9 @@ help:
 	@echo "... camera_NoIr_V2.o"
 	@echo "... camera_NoIr_V2.i"
 	@echo "... camera_NoIr_V2.s"
+	@echo "... fake_camera.o"
+	@echo "... fake_camera.i"
+	@echo "... fake_camera.s"
 	@echo "... rpi_node.o"
 	@echo "... rpi_node.i"
 	@echo "... rpi_node.s"

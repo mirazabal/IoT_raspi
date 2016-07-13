@@ -177,6 +177,9 @@ Node_SOURCE_DIR:STATIC=/home/mikel/workspace/IoT_raspi
 //Path to a library.
 RASPI_LIBRARY:FILEPATH=/home/mikel/workspace/IoT_raspi/lib/libraspicam.so
 
+//build application with ARM
+USE_ARM:BOOL=ON
+
 //Path to a library.
 WEBSOCK_LIBRARY:FILEPATH=/home/mikel/workspace/IoT_raspi/lib/libwebsocket_endpoint.so
 
