@@ -272,6 +272,7 @@ Node: CMakeFiles/Node.dir/sensor.cpp.o
 Node: CMakeFiles/Node.dir/sensor_factory.cpp.o
 Node: CMakeFiles/Node.dir/rpi_node.cpp.o
 Node: CMakeFiles/Node.dir/build.make
+Node: ../lib/googlemock/gtest/libgtest.a
 Node: ../lib/Boost_ARM_lib/libboost_system.a
 Node: ../lib/libwebsocket_endpoint.so
 Node: ../lib/libraspicam.so

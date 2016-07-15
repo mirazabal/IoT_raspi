@@ -2791,6 +2791,27 @@ CMakeFiles/Node.dir/unit_testing_IoT.cpp.o
  ../include/boost/version.hpp
  ../include/boost/visit_each.hpp
  ../include/boost/weak_ptr.hpp
+ ../include/gtest/gtest-death-test.h
+ ../include/gtest/gtest-message.h
+ ../include/gtest/gtest-param-test.h
+ ../include/gtest/gtest-printers.h
+ ../include/gtest/gtest-test-part.h
+ ../include/gtest/gtest-typed-test.h
+ ../include/gtest/gtest_pred_impl.h
+ ../include/gtest/gtest_prod.h
+ ../include/gtest/internal/custom/gtest-port.h
+ ../include/gtest/internal/custom/gtest-printers.h
+ ../include/gtest/internal/gtest-death-test-internal.h
+ ../include/gtest/internal/gtest-filepath.h
+ ../include/gtest/internal/gtest-internal.h
+ ../include/gtest/internal/gtest-linked_ptr.h
+ ../include/gtest/internal/gtest-param-util-generated.h
+ ../include/gtest/internal/gtest-param-util.h
+ ../include/gtest/internal/gtest-port-arch.h
+ ../include/gtest/internal/gtest-port.h
+ ../include/gtest/internal/gtest-string.h
+ ../include/gtest/internal/gtest-tuple.h
+ ../include/gtest/internal/gtest-type-util.h
  ../include/websocketpp/base64/base64.hpp
  ../include/websocketpp/client.hpp
  ../include/websocketpp/close.hpp
@@ -2865,6 +2886,7 @@ CMakeFiles/Node.dir/unit_testing_IoT.cpp.o
  /home/mikel/workspace/IoT_raspi/camera_NoIr_V2.h
  /home/mikel/workspace/IoT_raspi/fake_camera.h
  /home/mikel/workspace/IoT_raspi/include/connection_metadata.h
+ /home/mikel/workspace/IoT_raspi/include/gtest/gtest.h
  /home/mikel/workspace/IoT_raspi/include/raspicam.h
  /home/mikel/workspace/IoT_raspi/include/raspicamtypes.h
  /home/mikel/workspace/IoT_raspi/include/sio_message.h
