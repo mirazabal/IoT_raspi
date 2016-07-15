@@ -34,7 +34,7 @@ protected:
 	rpi_node r;
 };
 
-TEST_F(IoT_Test, DoesXyz) {
+TEST_F(IoT_Test, SendImage) {
 
 	for(int i = 0; i < 10; i++){
 
