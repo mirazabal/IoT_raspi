@@ -1,3 +1,0 @@
-/home/mikel/workspace/IoT_raspi/build/CMakeFiles/edit_cache.dir
-/home/mikel/workspace/IoT_raspi/build/CMakeFiles/rebuild_cache.dir
-/home/mikel/workspace/IoT_raspi/build/CMakeFiles/Node.dir

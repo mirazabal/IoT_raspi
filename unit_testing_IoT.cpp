@@ -36,13 +36,24 @@ protected:
 
 TEST_F(IoT_Test, SendImage) {
 
-	for(int i = 0; i < 10; i++){
+	for(int i = 0; i < 1000; i++){
 
 	std::shared_ptr<sensor> camSen = r.get_sensor("NoIR");
 	std::vector<std::string> data = camSen->get_data();
 
-	ASSERT_GT(0, data.size() );
+//	ASSERT_GT(0, data.size() );
 	r.send_data("image",data.at(0));
+
+	std::this_thread::sleep_for(std::chrono::milliseconds(500));
+	}
+	
+}	//
+
+
+TEST_F(IoT_Test, SendMessage) {
+
+	for(int i = 0; i < 1000; i++){
+	r.send_data("new message","Different Messages "+ std::to_string(i) );
 
 	std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	}
@@ -56,5 +67,4 @@ int main(int argc, char **argv) {
 	::testing::InitGoogleTest(&argc, argv);
 	return RUN_ALL_TESTS();
 }
-
 

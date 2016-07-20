@@ -21,6 +21,8 @@ private:
 	std::string grab_encoded64();
 	std::string get_image();
 	std::string encode_base64( std::string const& source);
+	void convert_and_safe_uchar_to_jpeg(unsigned char* data, std::string const& filename);
+	std::string convert_file_to_string(std::string const& filename);
 
 	raspicam::RaspiCam camera_;
 	mirazabal::base64 base64_encoder_;
