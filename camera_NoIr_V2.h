@@ -4,7 +4,7 @@
 #include "sensor.h"
 #include "base64.h"
 
-#include "include/raspicam.h"
+#include "include/raspicam/raspicam.h"
 
 #include <fstream>
 #include <string>

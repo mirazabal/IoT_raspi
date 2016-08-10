@@ -26,7 +26,8 @@ protected:
 	#else
 		r.add_sensor("NoIR", std::make_shared<fake_camera>());
 	#endif	
-		r.try_connect("http://10.138.13.86:3000");
+		r.try_connect("tcp://5.10.201.121:1883");
+
 	}
 	//
 	virtual void TearDown() {

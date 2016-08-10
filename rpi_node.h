@@ -5,7 +5,9 @@
 #include "sensor.h"
 #include "rpi_sensor_factory.h" 
 
-#include "include/websocket_endpoint.h"
+//#include "include/websocket_endpoint.h"
+#include "mqtt_endpoint.h"
+
 
 #include <string>
 #include <memory>
@@ -25,7 +27,9 @@ class rpi_node{
 	private:
 		rpi_sensor_factory factory_;
 		std::string name_;
-		mirazabal::sio::websocket_endpoint endpoint_;
+//		mirazabal::sio::websocket_endpoint endpoint_;
+
+		mirazabal::mqtt_end::mqtt_endpoint endpoint_;
 
 };
 
